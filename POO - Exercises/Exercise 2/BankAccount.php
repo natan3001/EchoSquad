@@ -29,9 +29,9 @@ class BankAccount
     }
 
     /**
-     * @return float
+     * @return string
      */
-    public function getFormattedBalance(): float
+    public function getFormattedBalance(): string
     {
         return number_format($this->balance, 2, ",", ".");
     }
