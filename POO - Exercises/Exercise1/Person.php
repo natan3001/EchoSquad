@@ -1,7 +1,5 @@
 <?php
 
-namespace Exercise1;
-
 class Person
 {
     private string $name;

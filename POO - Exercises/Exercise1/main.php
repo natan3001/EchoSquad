@@ -1,8 +1,6 @@
 <?php
 
-include "Person.php";
-
-use Exercise1\Person;
+require "POO - Exercises/Exercise1/Person.php";
 
 $person1 = new Person("Natan", 23, "Male");
 $person2 = new Person("Joao", 26, "Male");

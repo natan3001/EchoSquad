@@ -1,11 +1,6 @@
 <?php
 
-namespace Exercise3;
-
-include "POO - Exercises/Exercise1/Person.php";
-
-use Exception;
-use Exercise1\Person;
+require "POO - Exercises/Exercise1/Person.php";
 
 class Collaborator extends Person
 {

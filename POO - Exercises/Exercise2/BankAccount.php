@@ -1,9 +1,5 @@
 <?php
 
-namespace Exercise2;
-
-use Exception;
-
 class BankAccount
 {
     private float $balance = 0;

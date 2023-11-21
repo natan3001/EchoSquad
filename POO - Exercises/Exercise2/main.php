@@ -1,8 +1,6 @@
 <?php
 
-include "BankAccount.php";
-
-use Exercise2\BankAccount;
+require "POO - Exercises/Exercise2/BankAccount.php";
 
 try {
     $account = new BankAccount();

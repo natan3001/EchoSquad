@@ -1,8 +1,6 @@
 <?php
 
-include "Collaborator.php";
-
-use Exercise3\Collaborator;
+require "POO - Exercises/Exercise3/Collaborator.php";
 
 try {
     $collaborator = new Collaborator("Gabriela", 22, "female", 1560);
