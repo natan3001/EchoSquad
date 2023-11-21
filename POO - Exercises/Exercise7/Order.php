@@ -11,7 +11,6 @@ class Order
     {
         $this->orderId = $this->generateRandomOrderId();
         $this->items = [];
-        $this->totalValue = 0;
     }
 
     public function addItem(OrderItem $item): void
