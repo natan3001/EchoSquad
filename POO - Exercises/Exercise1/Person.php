@@ -18,5 +18,27 @@ class Person
         $this->gender = $gender;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
 
+    /**
+     * @return mixed
+     */
+    public function getAge()
+    {
+        return $this->age;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getGender()
+    {
+        return $this->gender;
+    }
 }
