@@ -1,16 +1,14 @@
-<h1 style="text-align: center"> EchoSquad </h1>
+<h1 align="center"> EchoSquad </h1>
 
-----
-
-<p style="text-align: center">
+<p align="center">
   This directory was created exclusively for use/practicing in the EchoSquad Bootcamp.
 </p>
 
-<p style="text-align: center">
+<p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
-<p style="text-align: center">
+<p align="center">
   <img alt="logo-echoSquad" src=".github/logo_echosquad.jpg" style="width: 50%">
 </p>
 
