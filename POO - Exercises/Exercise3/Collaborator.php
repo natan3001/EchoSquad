@@ -6,6 +6,12 @@ class Collaborator extends Person
 {
     private float $salary;
 
+    /**
+     * @param string $name
+     * @param int $age
+     * @param string $gender
+     * @param float $salary
+     */
     function __construct(string $name, int $age, string $gender, float $salary)
     {
         parent::__construct($name, $age, $gender);
