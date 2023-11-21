@@ -60,7 +60,10 @@ class Order
         return number_format($amount, 2, ",", ".");
     }
 
-    private function generateRandomOrderId()
+    /**
+     * @return int
+     */
+    private function generateRandomOrderId(): int
     {
         return mt_rand();
     }
