@@ -19,9 +19,9 @@ class Person
     }
 
     /**
-     * @return mixed
+     * @return string
      */
-    public function getName(): mixed
+    public function getName(): string
     {
         return $this->name;
     }

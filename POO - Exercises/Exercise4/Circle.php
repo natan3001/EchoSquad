@@ -14,11 +14,17 @@ class Circle implements GeometricForm
         $this->radius = $radius;
     }
 
+    /**
+     * @return float
+     */
     public function calculateArea(): float
     {
         return pi() * pow($this->radius, 2);
     }
 
+    /**
+     * @return float
+     */
     public function calculatePerimeter(): float
     {
         return 2 * pi() * $this->radius;

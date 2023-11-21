@@ -17,11 +17,17 @@ class Rectangle implements GeometricForm
         $this->width = $width;
     }
 
+    /**
+     * @return float
+     */
     public function calculateArea(): float
     {
         return $this->length * $this->width;
     }
 
+    /**
+     * @return float
+     */
     public function calculatePerimeter(): float
     {
         return ($this->length + $this->width) * 2;
