@@ -1,17 +1,19 @@
 <?php
 
+namespace Exercise1;
+
 class Person
 {
-    private $name;
-    private $age;
-    private $gender;
+    private string $name;
+    private int $age;
+    private string $gender;
 
     /**
-     * @param $name
-     * @param $age
-     * @param $gender
+     * @param string $name
+     * @param int $age
+     * @param string $gender
      */
-    public function __construct($name, $age, $gender)
+    public function __construct(string $name, int $age, string $gender)
     {
         $this->name = $name;
         $this->age = $age;
@@ -21,23 +23,23 @@ class Person
     /**
      * @return mixed
      */
-    public function getName()
+    public function getName(): mixed
     {
         return $this->name;
     }
 
     /**
-     * @return mixed
+     * @return int
      */
-    public function getAge()
+    public function getAge(): int
     {
         return $this->age;
     }
 
     /**
-     * @return mixed
+     * @return string
      */
-    public function getGender()
+    public function getGender(): string
     {
         return $this->gender;
     }
