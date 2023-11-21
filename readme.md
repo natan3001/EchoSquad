@@ -16,7 +16,6 @@
 ## Sobre
 The EchoSquad Bootcamp was an experience dedicated to elevating knowledge in programming, providing the opportunity to learn new skills and enhance existing ones.
 
-<hr>
 
 ## How to run the exercises
 To run the exercises, follow these steps:
