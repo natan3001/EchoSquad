@@ -10,4 +10,4 @@ $duration %= 60;
 $seconds = $duration;
 
 echo "$hours:$minutes:$seconds\n";
-?
+?>
